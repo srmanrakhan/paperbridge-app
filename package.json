@@ -1,0 +1,37 @@
+{
+  "name": "paperbridge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check:finance-core": "tsx --env-file-if-exists=.env.local scripts/check-finance-core.ts",
+    "seed": "tsx --env-file-if-exists=.env.local scripts/seed.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "export-log": "tsx --env-file-if-exists=.env.local scripts/export-log.ts",
+    "demo-docs": "tsx scripts/demo-docs.ts",
+    "doctor":"tsx --env-file-if-exists=.env.local scripts/doctor.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "16.4.2",
+    "qrcode": "^1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
