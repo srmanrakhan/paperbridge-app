@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Demo KSeF FA(3) e-invoice, trimmed to the main fields. Fictional companies. -->
+<Faktura xmlns="http://crd.gov.pl/wzor/2025/06/25/13775/">
+  <Naglowek>
+    <KodFormularza kodSystemowy="FA (3)" wersjaSchemy="1-0E">FA</KodFormularza>
+    <WariantFormularza>3</WariantFormularza>
+    <DataWytworzeniaFa>2026-10-15T08:12:00Z</DataWytworzeniaFa>
+  </Naglowek>
+  <Podmiot1>
+    <DaneIdentyfikacyjne><NIP>6790000001</NIP><Nazwa>Drukarnia Wisła Sp. z o.o.</Nazwa></DaneIdentyfikacyjne>
+  </Podmiot1>
+  <Podmiot2>
+    <DaneIdentyfikacyjne><NIP>9450000006</NIP><Nazwa>Biuro Rachunkowe Nowak</Nazwa></DaneIdentyfikacyjne>
+  </Podmiot2>
+  <Fa>
+    <KodWaluty>PLN</KodWaluty>
+    <P_1>2026-10-15</P_1>
+    <P_2>FV/2026/10/023</P_2>
+    <P_13_1>2000.00</P_13_1>
+    <P_14_1>460.00</P_14_1>
+    <P_15>2460.00</P_15>
+    <RodzajFaktury>VAT</RodzajFaktury>
+    <FaWiersz>
+      <NrWierszaFa>1</NrWierszaFa>
+      <P_7>Druk teczek firmowych z logo, 400 szt.</P_7>
+      <P_8A>szt.</P_8A>
+      <P_8B>400</P_8B>
+      <P_9A>5.00</P_9A>
+      <P_11>2000.00</P_11>
+      <P_12>23</P_12>
+    </FaWiersz>
+    <Platnosc>
+      <TerminPlatnosci><Termin>2026-11-14</Termin></TerminPlatnosci>
+      <FormaPlatnosci>6</FormaPlatnosci>
+    </Platnosc>
+  </Fa>
+</Faktura>

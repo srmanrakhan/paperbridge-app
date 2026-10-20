@@ -1,0 +1,2 @@
+id,account_id,booking_date,amount,counterparty_name,counterparty_nip,description,references,category,source
+TX900001,ACC1,2026-11-16,13840547,Przedsiębiorstwo Budowlane Budarol Sp. z o.o.,4876383146,Zapłata za FV/2026/09/0002 KSeF 5431651667-20260901-6938EA6120FD-C8,[],customer_payment,demo
