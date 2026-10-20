@@ -54,16 +54,7 @@ Without `FINANCE_CORE_URL` the app uses mock finance-core data from `lib/mockDat
 | `/api/actions` | (GET)                                                     | The action log, newest first.                                 |
 | `/api/approve` | `{ action_id, decision: "approved" \| "rejected" }`       | Owner decision on a draft. Records it; never sends anything. |
 
-Every tool call and every decision is a row in `agent_actions`.
-
-## Deploy (Vercel)
-
-1. Push the repo to GitHub.
-2. On https://vercel.com/new, import the repo. Vercel detects Next.js automatically.
-3. Under Settings > Environment Variables, add the four variables from `.env.example`.
-4. Deploy. Later pushes to the main branch redeploy automatically.
-
-Or from the command line: `npx vercel` (preview) and `npx vercel --prod`.
+Every tool call and every decision is a row in `agent_actions`
 
 ## Project layout
 
